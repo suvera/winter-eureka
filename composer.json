@@ -1,0 +1,29 @@
+{
+    "name": "suvera/winter-eureka",
+    "description": "Winter eureka is a Service Discovery module",
+    "type": "library",
+    "homepage": "https://suvera.github.io/",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suvera"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dev\\winterframework\\eureka\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+    ],
+    "require": {
+        "ext-swoole": "*",
+        "dcarbone/php-consul-api": "dev-master"
+    }
+}

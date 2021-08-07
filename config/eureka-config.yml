@@ -1,0 +1,25 @@
+# Consul.io
+consul:
+    -   name: consulBean01
+        serviceUrl: http://127.0.0.1:8500
+        authType: Basic
+        credentials: a
+        credentialFile: a
+        dataCenter: a
+        waitTimeSecs: 5
+        consulToken: a
+        consulTokenFile: t
+        ignoreSsl: false
+        caFile: a
+        certFile: b
+        keyFile: a
+
+
+# Netflix Eureka
+eureka:
+    -   name: netflixBean01
+        serviceUrl: http://localhost:8761/eureka
+        authType: basic
+        credentials: a
+        credentialFile: a
+        ignoreSsl: false
