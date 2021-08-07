@@ -1,6 +1,6 @@
 # WinterBoot Module - Eureka
 
-Winter Eureka is a module that provides easy configuration and access to Service Discovery functionality from WinterBoot applications.
+Winter Eureka is a module that provides easy configuration and access to Service Discovery functionality from [WinterBoot](https://github.com/suvera/winter-boot) applications.
 
 ### Service Discovery tools:
 
